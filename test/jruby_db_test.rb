@@ -5,7 +5,7 @@ require "test_helper"
 class JrubyDbTest < Test::Unit::TestCase
   test "VERSION" do
     assert do
-      ::JrubyDb.const_defined?(:VERSION)
+      ::JRubyDB.const_defined?(:VERSION)
     end
   end
 

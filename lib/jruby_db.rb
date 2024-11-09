@@ -2,7 +2,7 @@
 
 require_relative "jruby_db/version"
 
-module JrubyDb
+module JRubyDB
   class Error < StandardError; end
   # Your code goes here...
 end
